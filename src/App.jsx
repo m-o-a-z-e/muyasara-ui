@@ -44,7 +44,7 @@ export default function App() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('https://1be2-156-198-85-66.ngrok-free.app/webhook/0891b873-0b99-4e2a-a84e-5afcdfb1515e', {
+      const response = await fetch('https://0a8d-156-198-85-66.ngrok-free.app/webhook/0891b873-0b99-4e2a-a84e-5afcdfb1515e', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ chatInput: userMessage, sessionId: 'user-session-123' })
